@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Malik Dawood | Python &amp; Web Developer</title>
+  <meta name="description" content="Malik Dawood is a Python programmer and web developer who builds responsive websites and Flask web applications.">
+  <meta name="theme-color" content="#000000">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="Malik Dawood, back to top">
+        <span class="logo__mark" aria-hidden="true">MD</span>
+        <span class="logo__name">Malik Dawood</span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#experience">Experience</a></li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#education">Education</a></li>
+          <li class="nav__item--contact"><a class="btn btn--primary" href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--primary btn--sm header__cta" href="#contact">Contact Me</a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="menu-toggle__bars" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow reveal"><span class="status-dot" aria-hidden="true"></span>Open to job opportunities</p>
+
+          <h1 class="hero__title reveal" id="hero-title">
+            Malik <span class="hero__title-accent">Dawood</span>
+          </h1>
+
+          <p class="hero__role reveal">Python Programmer &amp; Web Developer</p>
+
+          <p class="hero__text reveal">
+            I build responsive websites with HTML, CSS and JavaScript, and practical web
+            applications with Python, Flask and SQLite, such as a Student Attendance
+            Management System.
+          </p>
+
+          <div class="hero__actions reveal">
+            <a class="btn btn--primary" href="#projects">View Projects</a>
+            <a class="btn btn--outline" href="#contact">Contact Me</a>
+          </div>
+
+          <p class="hero__meta reveal">
+            <span>Based in Jaranwala</span>
+            <a href="mailto:malikdawood123@gmail.com">malikdawood123@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="code-card" role="img" aria-label="Python code snippet describing Malik Dawood's role and skills">
+            <div class="code-card__bar" aria-hidden="true">
+              <span class="code-card__dot"></span>
+              <span class="code-card__dot"></span>
+              <span class="code-card__dot"></span>
+              <span class="code-card__file">developer.py</span>
+            </div>
+<pre class="code-card__body" aria-hidden="true"><code><span class="kw">class</span> Developer:
+    name     = <span class="str">"Malik Dawood"</span>
+    role     = <span class="str">"Python &amp; Web Developer"</span>
+    location = <span class="str">"Jaranwala"</span>
+    skills   = [
+        <span class="str">"Python"</span>, <span class="str">"Flask"</span>, <span class="str">"SQLite"</span>,
+        <span class="str">"HTML"</span>, <span class="str">"CSS"</span>, <span class="str">"JavaScript"</span>,
+    ]
+
+    <span class="kw">def</span> open_to(self):
+        <span class="kw">return</span> <span class="str">"Job opportunities"</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__content">
+          <div class="section-head reveal">
+            <p class="eyebrow">About me</p>
+            <h2 class="section-title" id="about-title">A Python programmer who builds for the web</h2>
+          </div>
+
+          <p class="section-text reveal">
+            I am a Python programmer and web developer from Jaranwala. I have trained in
+            Python programming and web development at Bano Qabil, and I put that learning into
+            practice by building real applications, from responsive front-end pages to Flask
+            apps backed by SQLite.
+          </p>
+          <p class="section-text reveal">
+            I care about clean, readable code and interfaces that work well on every screen.
+            I am looking for a job where I can keep learning and contribute to real projects.
+          </p>
+
+          <dl class="facts reveal">
+            <div>
+              <dt>Location</dt>
+              <dd>Jaranwala</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Python &amp; Web Development</dd>
+            </div>
+            <div>
+              <dt>Training</dt>
+              <dd>Bano Qabil</dd>
+            </div>
+            <div>
+              <dt>Education</dt>
+              <dd>Computer Science</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="reveal">
+          <article class="card card--static">
+            <h3 class="card__title">Key achievements</h3>
+            <ul class="check-list">
+              <li>Completed web development training.</li>
+              <li>Built responsive websites with HTML, CSS and JavaScript.</li>
+              <li>Built practical web applications with Python and Flask.</li>
+              <li>Created a Student Attendance Management System with SQLite.</li>
+              <li>Gained hands-on experience in front-end development and database integration.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Skills</p>
+          <h2 class="section-title" id="skills-title">Technologies I work with</h2>
+          <p class="section-desc">What I have learned in training and used in my projects.</p>
+        </div>
+
+        <div class="skills__grid reveal">
+          <article class="card">
+            <span class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </span>
+            <h3 class="card__title">Python Programming</h3>
+            <ul class="chips">
+              <li>Python</li>
+              <li>Functions</li>
+              <li>OOP</li>
+              <li>File handling</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <span class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            </span>
+            <h3 class="card__title">Front-end Development</h3>
+            <ul class="chips">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Responsive design</li>
+              <li>UI/UX design</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <span class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg>
+            </span>
+            <h3 class="card__title">Backend &amp; Database</h3>
+            <ul class="chips">
+              <li>Flask</li>
+              <li>SQLite</li>
+              <li>Database integration</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Experience</p>
+          <h2 class="section-title" id="experience-title">Training and hands-on work</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <article class="card">
+              <header class="timeline__head">
+                <div>
+                  <h3 class="card__title">Web Development</h3>
+                  <p class="timeline__org">IT Solution</p>
+                </div>
+                <p class="timeline__date"><time datetime="2026-06">June 2026</time></p>
+              </header>
+              <ul class="check-list">
+                <li>HTML, CSS and JavaScript</li>
+                <li>Responsive website development</li>
+                <li>Front-end web development</li>
+                <li>Flask and Python basics</li>
+                <li>Database integration (SQLite)</li>
+                <li>Website UI/UX design</li>
+              </ul>
+            </article>
+          </li>
+
+          <li class="timeline__item reveal">
+            <article class="card">
+              <header class="timeline__head">
+                <div>
+                  <h3 class="card__title">Python Programming</h3>
+                  <p class="timeline__org">Penta 5 Solutions</p>
+                </div>
+                <p class="timeline__date">
+                  <time datetime="2026-03">March 2026</time> &ndash; <time datetime="2026-06">June 2026</time>
+                </p>
+              </header>
+              <ul class="check-list">
+                <li>Python basics and functions</li>
+                <li>Object-oriented programming (OOP)</li>
+                <li>File handling</li>
+                <li>SQLite and Flask</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Projects</p>
+          <h2 class="section-title" id="projects-title">Things I have built</h2>
+          <p class="section-desc">Practical projects that put my Python and web skills to work.</p>
+        </div>
+
+        <div class="projects__grid reveal">
+          <article class="card project">
+            <div class="project__visual" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><polyline points="9 16 11 18 15 14"/></svg>
+            </div>
+            <div class="project__body">
+              <h3 class="card__title">Student Attendance Management System</h3>
+              <p class="project__text">
+                A web-based application for managing student records and daily attendance.
+                It reduces manual work, improves accuracy and gives an organized way to
+                monitor attendance.
+              </p>
+              <ul class="check-list">
+                <li>Add and manage student information</li>
+                <li>Mark daily attendance</li>
+                <li>View attendance history</li>
+                <li>Generate attendance reports</li>
+              </ul>
+              <ul class="chips project__tech" aria-label="Technologies used">
+                <li>Python</li>
+                <li>Flask</li>
+                <li>SQLite</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project__visual" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            </div>
+            <div class="project__body">
+              <h3 class="card__title">Personal Portfolio Website</h3>
+              <p class="project__text">
+                The site you are viewing: a responsive, accessible portfolio written from
+                scratch without frameworks or libraries.
+              </p>
+              <ul class="check-list">
+                <li>Responsive layout with a mobile menu</li>
+                <li>Semantic HTML and visible keyboard focus</li>
+                <li>Subtle scroll animations with reduced-motion support</li>
+              </ul>
+              <ul class="chips project__tech" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Education</p>
+          <h2 class="section-title" id="education-title">Education and training</h2>
+        </div>
+
+        <div class="education__grid reveal">
+          <article class="card">
+            <p class="card__label">Education</p>
+            <h3 class="card__title">Computer Science</h3>
+            <p class="card__meta">Faran School System &mdash; A Sign of Leadership</p>
+            <p class="card__meta">Jaranwala &middot; 2026</p>
+          </article>
+
+          <article class="card">
+            <p class="card__label">Courses</p>
+            <ul class="course-list">
+              <li>
+                <h3 class="card__title">Python Programming</h3>
+                <p class="card__meta">Bano Qabil</p>
+              </li>
+              <li>
+                <h3 class="card__title">Web Development</h3>
+                <p class="card__meta">Bano Qabil</p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <div class="section-head reveal">
+            <p class="eyebrow">Contact</p>
+            <h2 class="section-title" id="contact-title">Let&rsquo;s work together</h2>
+            <p class="section-desc">
+              I am open to job opportunities. Send me a message or reach out directly.
+            </p>
+          </div>
+
+          <ul class="contact__list reveal">
+            <li>
+              <a class="card contact-item" href="mailto:malikdawood123@gmail.com">
+                <span class="icon-box icon-box--sm" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22 6 12 13 2 6"/></svg>
+                </span>
+                <span>
+                  <span class="contact-item__label">Email</span>
+                  <span class="contact-item__value">malikdawood123@gmail.com</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a class="card contact-item" href="tel:+923017277288">
+                <span class="icon-box icon-box--sm" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </span>
+                <span>
+                  <span class="contact-item__label">Phone</span>
+                  <span class="contact-item__value">03017277288</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <div class="card card--static contact-item">
+                <span class="icon-box icon-box--sm" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </span>
+                <span>
+                  <span class="contact-item__label">Location</span>
+                  <span class="contact-item__value">Jaranwala</span>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="reveal">
+          <form class="card card--static form" id="contact-form">
+            <div class="form__field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Your full name" required>
+            </div>
+            <div class="form__field">
+              <label for="email">Your email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form__field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="How can I help?" required></textarea>
+            </div>
+            <button class="btn btn--primary" type="submit">Send message</button>
+            <p class="form__note" id="form-note" role="status">This opens your email app with the message ready to send.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="logo" href="#top" aria-label="Malik Dawood, back to top">
+            <span class="logo__mark" aria-hidden="true">MD</span>
+            <span class="logo__name">Malik Dawood</span>
+          </a>
+          <p class="footer__text">
+            Python programmer and web developer building responsive websites and Flask applications.
+          </p>
+        </div>
+
+        <nav aria-label="Footer navigation">
+          <h2 class="footer__title">Navigate</h2>
+          <ul class="footer__list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h2 class="footer__title">Contact</h2>
+          <ul class="footer__list">
+            <li><a href="mailto:malikdawood123@gmail.com">malikdawood123@gmail.com</a></li>
+            <li><a href="tel:+923017277288">03017277288</a></li>
+            <li>Jaranwala</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span id="year">2026</span> Malik Dawood. All rights reserved.</p>
+        <a href="#top">Back to top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
